@@ -12,7 +12,7 @@ const app = express();
 const PORT = 5000; // Hardcoded port
 
 // --- HARDCODED MONGO_URI ---
-const MONGO_URI = "mongodb+srv://animeshtajne776_db_user:OWh4AWFsdd8mtz80@underdogs.el9psk5.mongodb.net/rakshawann01?retryWrites=true&w=majority&appName=underdogs";
+const MONGO_URI = "mongodb+srv://animeshtajne776_db_user:OWh4AWFsdd8mtz80@underdogs.el9psk5.mongodb.net/VanRakshakDB?retryWrites=true&w=majority&appName=underdogs";
 
 
 // Middleware
@@ -173,4 +173,5 @@ connectDB().then(() => {
         console.log(`Server is running on http://localhost:${PORT}`);
         console.log(`To get alerts, visit http://localhost:${PORT}/api/alerts`);
     });
+
 });
