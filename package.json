@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "exif-reader": "^2.0.2",
     "express": "^5.1.0",
